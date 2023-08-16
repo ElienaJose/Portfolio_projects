@@ -4,7 +4,7 @@ FROM portfolio_project.dbo.NashvilleHousing
 SELECT COUNT(1)
 FROM portfolio_project.dbo.NashvilleHousing
 
---Standerdize date format
+--Standardize date format
 
 SELECT SaleDate
 FROM portfolio_project.dbo.NashvilleHousing
