@@ -1,2 +1,1 @@
-Analysis on covid cases, deaths and vaccination in MSSQL server (Covid_analysis.sql).Used advanced sql concepts like cte, views and temporary table and windows function in the process.# Portfolio_projects
-A data cleaning was done on Nashville housing dataset 
+ #Covid_analysis.sql Analysis on covid cases, deaths and vaccination in MSSQL server.Used advanced sql concepts like cte,joins, views and temporary table and windows function in the process. #datacleaning.sql A data cleaning was done on Nashville housing dataset where the date was converted to standerdized format, empty addresses was populated with the correct ones,
