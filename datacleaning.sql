@@ -6,11 +6,11 @@ FROM portfolio_project.dbo.NashvilleHousing
 
 --Standardize date format
 
-SELECT SaleDate
-FROM portfolio_project.dbo.NashvilleHousing
+--SELECT SaleDate
+--FROM portfolio_project.dbo.NashvilleHousing
 
-UPDATE portfolio_project.dbo.NashvilleHousing
-SET SaleDate = CONVERT(date,SaleDate)
+--UPDATE portfolio_project.dbo.NashvilleHousing
+--SET SaleDate = CONVERT(date,SaleDate)
 
 ALTER TABLE NashvilleHousing
 ADD SaleDateConverted Date;
